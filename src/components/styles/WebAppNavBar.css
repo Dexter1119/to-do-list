@@ -1,0 +1,97 @@
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    height: 56px;
+    background-color: #fbfdfc;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Left Section: Hamburger and Logo */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .menu-icon {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+  
+  .menu-line {
+    width: 20px;
+    height: 2px;
+    background-color: #1b281b;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #3f9142;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-icon .inner-circle {
+    width: 16px;
+    height: 16px;
+    background-color: #3f9142;
+    border-radius: 50%;
+  }
+  
+  .logo-text {
+    font-family: 'Sen', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3f9142;
+  }
+  
+  /* Right Section: Icons */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .icon {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #1b281b;
+  }
+  
+  .search-icon::before {
+    content: "🔍";
+  }
+  
+  .grid-icon::before {
+    content: "⛓";
+  }
+  
+  .moon-icon::before {
+    content: "🌙";
+  }
+  
+  .icon:hover {
+    color: #3f9142;
+  }
+  

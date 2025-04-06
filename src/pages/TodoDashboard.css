@@ -1,0 +1,54 @@
+/* Overall Dashboard Layout */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Sidebar Area */
+  .sidebar {
+    width: 250px;
+    border-right: 1px solid #ddd;
+  }
+  
+  /* Main Content Area */
+  .dashboard-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* Navigation Bar */
+  .dashboard-navbar {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Dashboard Header */
+  .dashboard-header {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Dashboard View Content */
+  .dashboard-view {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
